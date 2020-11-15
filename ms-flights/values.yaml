@@ -9,7 +9,7 @@ image:
   repository: msupandrunning/flights
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.1"
+  tag: "v1.0"
 
 MYSQL_HOST: terraform-20200628202846990700000001.cvwyhqlgawf0.eu-west-2.rds.amazonaws.com
 MYSQL_USER: microservices
