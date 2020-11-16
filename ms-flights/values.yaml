@@ -13,8 +13,9 @@ image:
 
 MYSQL_HOST: terraform-20200628202846990700000001.cvwyhqlgawf0.eu-west-2.rds.amazonaws.com
 MYSQL_USER: microservices
-MYSQL_PASSWORD: microservices
 MYSQL_DATABASE: microservices_db
+MYSQLSecretName: mysql
+MYSQLSecretKey: password
               
 imagePullSecrets: []
 nameOverride: ""
